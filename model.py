@@ -9,3 +9,5 @@ fare_ceiling = 40
 idx = pd.IndexSlice
 mask = train.loc[:, idx['Fare']] > fare_ceiling
 train[mask] = fare_ceiling - 1
+
+number of classes = 3
